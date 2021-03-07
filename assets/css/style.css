@@ -1,0 +1,587 @@
+body {
+    font-family: Poppins !important;
+    background-color: #E5E5E5 !important;
+}
+
+.navbar-custom {
+    background-color: #676FFE !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: white !important;
+    letter-spacing: 0.13em;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 28px;
+    letter-spacing: 0.13em;
+    color: white !important;
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.navbar-nav .active a {
+    color: #F1C644 !important;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.carousel-home {
+    margin-bottom: 50px;
+}
+
+.gambar-carousel {
+    border-radius: 15px;
+}
+
+.carousel-nav-icon {
+   height: 21px;
+   width: 21px;
+}
+
+.fototest img {
+    width: 178px;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}
+
+.produk-unggulan {
+    margin-top: 66px;
+}
+
+.judul-home {
+    font-weight: bold;
+    font-size: 18px;
+    color: #31353B;
+}
+
+.list-produk-home {
+    margin-top: 35px;
+}
+
+.produk {
+    border-radius: 15px !important;
+    /* max-width: 215px !important;
+    max-height: 330px !important; */
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-produk-judul {
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+}
+
+.card-body {
+    padding-bottom: 20px !important;
+    padding-left: 12px !important;
+    padding-top: 13px !important;
+}
+
+.card-img-top {
+    max-width: 215px !important;
+    max-height: 215px !important;
+}
+
+.harga-produk-card {
+    font-weight: bold;
+    font-size: 18px;
+    color: #31353B;
+}
+
+.terjual-produk-card {
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+}
+
+.checked {
+    color: #F1C644;;
+}
+
+.all-produk {
+    margin-top: 88px;
+    text-align: center;
+}
+
+.all-produk-btn {
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: #FFFFFF !important;
+    width: 347px;
+    background: #FFD200 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 39px !important;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 90px;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    background: rgba(103, 111, 254, 0.8);
+}
+
+.isian-footer {
+    padding-top: 50px;
+}
+
+.judul-footer {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.13em;
+    color: white;
+}
+
+.hr-footer {
+    margin-top: 5px;
+    border: 1px solid #FFD200;
+    margin-bottom: 22px;
+}
+
+.body-tentang-kami {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.sosmed-text {
+    margin-left: 12px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none !important;
+}
+
+.sosmed-text:hover {
+    color: white;
+}
+
+.cr {
+    padding-top: 100px;
+    padding-bottom: 14px;
+    background: rgba(103, 111, 254, 0.8);
+    text-align: center;
+    letter-spacing: 0.13em;
+    color: #FFFFFF;
+}
+
+.link-produk {
+    text-decoration: none !important;
+}
+
+/* PRODUK CSS */
+
+.judul-page {
+    font-weight: bold;
+    font-size: 24px;
+    color: #31353B;
+}
+
+.hr-page {
+    border: 0.1px solid #FFD200;
+    margin-top: 15px;
+}
+
+.content-page {
+    margin-top: 30px;
+}
+
+.judul-produk {
+    font-weight: 600;
+    font-size: 24px;
+    color: #31353B;
+    margin-bottom: 15px;
+}
+
+.search-bar {
+    background: #FFFFFF !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 15px !important;
+    padding: 6px 21px !important;
+}
+
+.form-group{
+  position:relative;
+}
+
+.form-group .form-control-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    right:0;
+    top: 0px;
+}
+
+.filter-bar {
+    background: #FFFFFF !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 15px !important;
+    width: 150px !important;
+}
+
+.jumlah-produk {
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+}
+
+.tab-content {
+    margin-top: 20px !important;
+}
+
+.header-produk {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* CSS PRODUK-2 */
+
+.filter-kategori {
+    background-color: white;
+    padding: 15px 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.header-filter-kategori {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #31353B;
+}
+
+.filter-kategori .active {
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: white !important;
+    margin-left: 0px;
+    background: #F1C644 !important;
+    border-radius: 15px !important;
+    padding: 4px 9px !important;
+    margin-bottom: 11px !important;
+}
+
+.item-filter-kategori {
+    margin-left: 8px;
+    margin-bottom: 15px;
+    text-decoration: none !important;
+    font-weight: normal;
+    font-size: 14px;
+    color: black;
+}
+
+.item-produk {
+    margin-top: 15px;
+}
+
+.kolom-produk {
+    margin-bottom: 35px;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+
+.page-item.active .page-link {
+    color: white !important;
+    background-color: #F1C644 !important;
+}
+
+.page-link {
+    border: none !important;
+    padding: 8px 13px !important;
+    color :black !important;
+    font-weight: normal !important;
+    font-size: 13px !important;
+}
+
+/* ULASAN CSS */
+
+.ulasan-card {
+    background-color: white;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 17px 18px;
+}
+
+.foto-user {
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+}
+
+.ulasan-title {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.ulasan-username {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ulasan-text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.foto-produk-detail {
+    border-radius: 15px;
+}
+
+.inti-produk-detail {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.nama-produk-detail {
+    /* margin-bottom: 10px; */
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    font-size: 24px;
+    color: #31353B;
+}
+
+.ulasan-terjual-produk-detail{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #31353B;
+}
+
+.pemisah {
+    width: 27px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 0.3px solid #808080;
+}
+
+.harga-produk-detail {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 36px;
+    color: #31353B;
+}
+
+.btn-masukan-kerangjang {
+    background: #FFD200 !important;
+    /* border: 1px solid #676FFE !important; */
+    box-sizing: border-box !important;
+    /* border-radius: 8px !important; */
+    /* padding: 18px 12px !important; */
+    color: #FFFFFF !important;
+    font-weight: 500 !important;
+    /* font-size: 18px !important; */
+}
+
+.btn-beli-sekarang {
+    background: #FFFFFF !important;
+    /* border: 1px solid #676FFE !important; */
+    box-sizing: border-box !important;
+    /* border-radius: 15px !important;
+    padding: 18px 43px !important; */
+    font-weight: 500 !important;
+    /* font-size: 18px !important; */
+    color: #31353B !important;
+}
+
+.footer-produk-detail {
+    margin-top: 20px;
+}
+
+.deskripsi-produk-detail {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 35px 48px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title-produk-detail {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+}
+
+.body-deskripsi {
+    margin-top: 15px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.martop {
+    margin-top: 15px !important;
+}
+
+hr {
+    margin-top: 0.2rem !important;
+    margin-bottom: 0.2rem !important;
+}
+
+.ringkasan-body h5 {
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(49, 53, 59, 0.7);
+}
+
+.list-pembelian {
+    margin-left: 5px;
+}
+
+.item-list-pembelian p {
+    margin-bottom: .2rem !important;
+    font-size: 14px;
+    color: #31353B;
+}
+
+/* CSS KERANJANG BELANJA */
+
+.informasi-pembeli {
+    padding: 15px 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.informasi-title {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.form-informasi {
+    margin-top: 8px;
+}
+
+.border-bawah {
+    border: 0 !important;
+    transition: none !important;
+    border-bottom: 1px solid #ced4da !important;
+}
+
+.input-label {
+    margin-bottom: 0 !important;
+}
+
+.ringkasan-card {
+    padding: 17px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.ringkasan-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ringkasan-footer p{
+    margin-bottom: 0 !important;
+}
+
+.item-keranjang {
+    padding: 23px 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.nama-produk-keranjang {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.harga-produk-keranjang {
+    font-size: 16px;
+}
+
+.note-produk-keranjang {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.title-item-pesanan h5{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.title-item-pesanan p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+}
+
+.btn-kuning-besar {
+    width: 100% !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    background-color: #F1C644 !important;
+    border-radius: 15px !important;
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+}
+
+@media (min-width: 992px) {
+    .header-produk {
+        margin-top: 0px;
+    }
+
+    .judul-produk {
+        margin-bottom: 0px;
+    }
+
+    .btn-beli-sekarang {
+        margin-top: 0px !important;
+        margin-left: 20px !important;
+    }
+
+    .footer-produk-detail {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 768px) { 
+    .inti-produk-detail {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+
+    .martop {
+        margin-top: 0px !important;
+    }
+
+    .btn-beli-sekarang {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
